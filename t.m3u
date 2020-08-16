@@ -1,0 +1,13 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-chno="0001" tvg-ID="een.be" tvg-name="Één BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM24E.png" tvg-chno="1" channel-id="een.be" group-title="Entertainment", een
+https://live-vrt.akamaized.net/groupc/live/8edf3bdf-7db3-41c3-a318-72cb7f82de66/live_aes.isml/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="0002" tvg-ID="canvas.be" tvg-name="canvas BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM24F.png" tvg-chno="2" channel-id="canvas.be" group-title="Entertainment", canvas
+https://live-vrt.akamaized.net/groupc/live/14a2c0f6-3043-4850-88a5-7fb062fe7f05/live_aes.isml/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="0003" tvg-ID="ketnet.be" tvg-name="ketnet BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM0C7.png" tvg-chno="3" channel-id="ketnet.be" group-title="Entertainment", ketnet
+https://live-vrt.akamaized.net/groupc/live/f132f1b8-d04d-404e-90e0-6da1abb4f4fc/live_aes.isml/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="0004" tvg-ID="bvn.nl" tvg-name="BVN TV NL" tvg-type="live" tvg-logo="https://images.zattic.com/logos/1b50d64bdc4325f38471/black/70x40.png" tvg-chno="4" channel-id="4" group-title="Entertainment", bvn
+https://bozztv.com/36bay2/gin/giniko_bvntv_1200kb_36bay2/tracks-v1a1/mono.m3u8
