@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-chno="0001" tvg-ID="een.be" tvg-name="Één BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM24E.png" tvg-chno="1" channel-id="een.be" group-title="Entertainment", een
-https://live-vrt.akamaized.net/groupc/live/8edf3bdf-7db3-41c3-a318-72cb7f82de66/live_aes.isml/playlist.m3u8
+https://live-vrt.akamaized.net/groupc/live/8edf3bdf-7db3-41c3-a318-72cb7f82de66/live_aes.isml/playlist.m3u8?hd
 
 #EXTINF:-1 tvg-chno="0002" tvg-ID="canvas.be" tvg-name="canvas BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM24F.png" tvg-chno="2" channel-id="canvas.be" group-title="Entertainment", canvas
 https://live-vrt.akamaized.net/groupc/live/14a2c0f6-3043-4850-88a5-7fb062fe7f05/live_aes.isml/playlist.m3u8
