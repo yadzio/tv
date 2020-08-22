@@ -1,13 +1,146 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-chno="0001" tvg-ID="een.be" tvg-name="Één BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM24E.png" tvg-chno="1" channel-id="een.be" group-title="Entertainment", een
-https://live-vrt.akamaized.net/groupc/live/8edf3bdf-7db3-41c3-a318-72cb7f82de66/live_aes.isml/playlist.m3u8?hd
+EXTINF:-1 tvg-chno="0001" tvg-ID="een.be" tvg-name="Één BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM24E.png" tvg-chno="1" channel-id="een.be" group-title="BE;L-NL;General",een
+https://live-vrt.akamaized.net/groupc/live/8edf3bdf-7db3-41c3-a318-72cb7f82de66/live_aes.isml/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="0002" tvg-ID="canvas.be" tvg-name="canvas BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM24F.png" tvg-chno="2" channel-id="canvas.be" group-title="Entertainment", canvas
+#EXTINF:-1 tvg-chno="0002" tvg-ID="canvas.be" tvg-name="canvas BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM24F.png" tvg-chno="2" channel-id="canvas.be" group-title="BE;L-NL;General",canvas
 https://live-vrt.akamaized.net/groupc/live/14a2c0f6-3043-4850-88a5-7fb062fe7f05/live_aes.isml/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="0003" tvg-ID="ketnet.be" tvg-name="ketnet BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM0C7.png" tvg-chno="3" channel-id="ketnet.be" group-title="Entertainment", ketnet
+#EXTINF:-1 tvg-chno="0003" tvg-ID="ketnet.be" tvg-name="ketnet BE" tvg-type="live" tvg-logo="https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/MM0C7.png" tvg-chno="3" channel-id="ketnet.be" group-title="BE;L-NL;General",ketnet
 https://live-vrt.akamaized.net/groupc/live/f132f1b8-d04d-404e-90e0-6da1abb4f4fc/live_aes.isml/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="0004" tvg-ID="bvn.nl" tvg-name="BVN TV NL" tvg-type="live" tvg-logo="https://images.zattic.com/logos/1b50d64bdc4325f38471/black/70x40.png" tvg-chno="4" channel-id="4" group-title="Entertainment", bvn
+#EXTINF:-1 tvg-chno="0004" tvg-ID="BVN.be" tvg-name="BVN TV NL" tvg-type="live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/BVN_logo.svg/1200px-BVN_logo.svg.png" tvg-chno="4" channel-id="BVN.be" group-title="BE;L-NL;General",bvn
 https://bozztv.com/36bay2/gin/giniko_bvntv_1200kb_36bay2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-chno="0004" tvg-ID="BVN.be" tvg-name="BVN TV NL" tvg-type="live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/BVN_logo.svg/1200px-BVN_logo.svg.png" tvg-chno="4" channel-id="BVN.be" group-title="BE;L-NL;General",bvn HQ
+http://130.180.93.142:8001/1:0:1:439f:2cec:13e:820000:0:0:0
+#EXTINF:-1 tvg-chno="" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="NL;L-NL;Music",TV Oranje
+http://176.114.248.227:8001/1:0:1:36E7:C8C:3:EB0000:0:0:0
+
+
+#EXTINF:-1 tvg-chno="" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="NPO;NPOx", NL: NPO 1 
+http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo1/npo1.isml/npo1.m3u8|X-Forwarded-For=145.58.28.175
+#EXTINF:-1 tvg-chno="" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="NPO;NPOx", NL: NPO 2 
+http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo2/npo2.isml/npo2.m3u8|X-Forwarded-For=145.58.28.175
+#EXTINF:-1 tvg-chno="" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="NPO;NPOx", NL: NPO 3 
+http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.isml/npo3.m3u8|X-Forwarded-For=145.58.28.175
+
+
+#EXTINF:-1 tvg-chno="" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="NPO;NPOgeo", NL: NPO 1 
+http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo1/npo1.isml/npo1.m3u8
+#EXTINF:-1 tvg-chno="" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="NPO;NPOgeo", NL: NPO 2 
+http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo2/npo2.isml/npo2.m3u8
+#EXTINF:-1 tvg-chno="" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="NPO;NPOgeo", NL: NPO 3 
+http://resolver.streaming.api.nos.nl/livestream?url=/live/npo/tvlive/npo3/npo3.isml/npo3.m3u8
+
+#EXTINF:-1 tvg-chno="1005" tvg-ID="arte.fr" tvg-name="" tvg-language="" tvg-logo="https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png" group-title="FR;L-FR;General" channel-id="arte.fr",arte
+http://artelive-lh.akamaihd.net/i/artelive_fr@344805/master.m3u8?|X-Forwarded-For=217.70.184.38
+#EXTINF:-1 tvg-chno="1012" tvg-ID="NRJ12.fr" tvg-name="" tvg-language="" tvg-logo="" group-title="FR;L-FR;General" channel-id="NRJ12.fr",NRJ 12
+https://nrj12hls-lh.akamaihd.net/i/nrj12hls_1@579113/index_720_av-b.m3u8?|X-Forwarded-For=217.70.184.38
+#EXTINF:-1 tvg-chno="1025" tvg-ID="cherie25.fr" tvg-name="Chérie 25 FR" tvg-language="" tvg-logo="" channel-id="Cherie25.fr" group-title="FR;L-FR;General",Chérie 25
+https://cherie25hls-lh.akamaihd.net/i/cherie25hls_1@579096/index_720_av-b.m3u8?|X-Forwarded-For=217.70.184.38
+#EXTINF:-1 tvg-chno="1501" tvg-ID="TV5MondeFBS.fr" tvg-name="TV5 Monde France Belgique Suisse (FBS)" tvg-language="" tvg-logo="" channel-id="" group-title="FR;FR;General",TV5 Monde France Belgique Suisse
+http://v3fbs247hls-i.akamaihd.net/hls/live/219079/v3fbs247hls/v3fbs247hls_1_1.m3u8?|X-Forwarded-For=217.70.184.38
+#EXTINF:-1 tvg-chno="1501" tvg-ID="TV5MondeFBS.fr" tvg-name="TV5 Monde France Belgique Suisse (FBS)" tvg-language="" tvg-logo="" channel-id="" group-title="FR;FR;General",TV5 Monde France Belgique Suisse 2
+http://v3fbs247hls-i.akamaihd.net/hls/live/219079/v3fbs247hls/index.m3u8?|X-Forwarded-For=217.70.184.38
+#EXTINF:-1 tvg-chno="" tvg-ID="TV5MondeEurope.fr" tvg-name="TV5MONDE Europe" tvg-language="" tvg-logo="https://tvepg.eu/img/switzerland/logo/tv5_monde_europe.png" group-title="FR;FR;General" tvg-chno="", TV5 Monde Europe
+https://tv5europe-i.akamaihd.net/hls/live/729480/tv5europehls/master.m3u8?|X-Forwarded-For=31.3.228.238
+
+
+#EXTINF:-1 tvg-chno="1502" tvg-ID="LN24.fr" tvg-name="LN24" tvg-language="" tvg-type="live" tvg-logo="https://s3.eu-west-3.amazonaws.com/pub.be/2019/01/LN24-444x500.jpg" tvg-chno="7" channel-id="7" group-title="BE;L-FR;News",LN24
+https://live.cdn.ln24.be/out/v1/b191621c8b9a436cad37bb36a82d2e1c/index_1.m3u8
+
+
+#EXTINF:-1 tvg-chno="601" tvg-id="Food TV" tvg-name="Food TV" tvg-logo="https://images.pluto.tv/channels/5877ac8cb791f4eb4a140d81/colorLogoPNG.png" group-title="PlutoTV" group-title="Home + DIY",Food TV
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5877ac8cb791f4eb4a140d81/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=601&deviceId=5877ac8cb791f4eb4a140d81&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+#EXTINF:-1 tvg-chno="605" tvg-id="America's Test Kitchen" tvg-name="America's Test Kitchen" tvg-logo="https://images.pluto.tv/channels/5e84f54a82f05300080e6746/colorLogoPNG.png" group-title="PlutoTV" group-title="Home + DIY",America's Test Kitchen
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e84f54a82f05300080e6746/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=605&deviceId=5e84f54a82f05300080e6746&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+#EXTINF:-1 tvg-chno="614" tvg-id="Dabl" tvg-name="Dabl" tvg-logo="https://images.pluto.tv/channels/5ef0fbed39ff730007383a69/colorLogoPNG.png" group-title="PlutoTV" group-title="Home + DIY",Dabl
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ef0fbed39ff730007383a69/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=614&deviceId=5ef0fbed39ff730007383a69&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+
+#EXTINF:-1 tvg-chno="2001" tvg-id="tv.320203000305" tvg-name="" tvg-type="live" tvg-id="tv.320203000301" tvg-logo="http://i.mjh.nz/.images/tv.320203000301.png" group-title="Australia",SBS
+http://i.mjh.nz/au/Sydney/tv.320203000301.m3u8?|X-Forwarded-For=52.62.247.239&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F84.0.4147.105+Safari%2F537.36&Referer=%20&Seekable=0
+
+#EXTINF:-1 tvg-chno="2002" tvg-id="tv.320203000307" tvg-name="" tvg-type="live" tvg-logo="http://i.mjh.nz/.images/tv.320203000307.png" group-title="Australia",SBS World Movies
+http://i.mjh.nz/au/Sydney/tv.320203000307.m3u8?|X-Forwarded-For=52.62.247.239&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F84.0.4147.105+Safari%2F537.36&Referer=%20&Seekable=0
+
+#EXTINF:-1 tvg-chno="2003" tvg-id="tv.320203000303" tvg-name="" tvg-type="live" tvg-logo="http://i.mjh.nz/.images/tv.320203000303.png" group-title="Australia",SBS VICELAND
+http://i.mjh.nz/au/Sydney/tv.320203000303.m3u8?|X-Forwarded-For=52.62.247.239&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F84.0.4147.105+Safari%2F537.36&Referer=%20&Seekable=0
+
+#EXTINF:-1 tvg-chno="2004" tvg-id="tv.320203000304" tvg-name="" tvg-type="live" tvg-logo="http://i.mjh.nz/.images/tv.320203000304.png" group-title="Australia",SBS Food
+http://i.mjh.nz/au/Sydney/tv.320203000304.m3u8?|X-Forwarded-For=52.62.247.239&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F84.0.4147.105+Safari%2F537.36&Referer=%20&Seekable=0
+
+#EXTINF:-1 tvg-chno="2005" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="http://i.mjh.nz/.images/tv.320203000305.png" group-title="Australia",NITV
+http://i.mjh.nz/au/Sydney/tv.320203000305.m3u8?|X-Forwarded-For=52.62.247.239&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F84.0.4147.105+Safari%2F537.36&Referer=%20&Seekable=0
+
+#EXTINF:-1 tvg-chno="2006" tvg-id="tv.acctv" tvg-name="" tvg-type="live" tvg-logo="http://i.mjh.nz/.images/tv.acctv.png" group-title="Australia",ACCTV
+http://i.mjh.nz/au/Sydney/tv.acctv.m3u8?|X-Forwarded-For=52.62.247.239&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F84.0.4147.105+Safari%2F537.36&Referer=%20&Seekable=0
+
+#EXTINF:-1 tvg-chno="8001" tvg-ID="DR1.dk" tvg-name="" tvg-type="live" tvg-logo="https://raw.githubusercontent.com/yadzio/tvlogos/master/dr1-dk.png" channel-id="DR1.dk" group-title="Nordic",DR 1
+http://dr01-lh.akamaihd.net/i/live/dr01_0@147054/master.m3u8?|X-Forwarded-For=78.157.96.0
+#EXTINF:-1 tvg-chno="8002" tvg-ID="DR2.dk" tvg-name="" tvg-type="live" tvg-logo="" channel-id="DR2.dk" group-title="Nordic",DR 2 
+http://dr02-lh.akamaihd.net/i/live/dr02_0@147055/master.m3u8?u=n1info|X-Forwarded-For=78.157.96.0
+#EXTINF:-1 tvg-chno="8003" tvg-ID="DR3.dk" tvg-name="" tvg-type="live" tvg-logo="" channel-id="DR3.dk" group-title="Nordic",DR 3
+http://dr03-lh.akamaihd.net/i/live/dr03_0@147056/master.m3u8?|X-Forwarded-For=78.157.96.0
+#EXTINF:-1 tvg-chno="8004" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="",DR K
+http://dr04-lh.akamaihd.net/i/live/dr04_0@147057/master.m3u8?|X-Forwarded-For=78.157.96.0
+#EXTINF:-1 tvg-chno="8005" tvg-ID="DRRamaSjang.dk" tvg-name="" tvg-type="live" tvg-logo="" channel-id="DRRamaSjang.dk" group-title="Nordic",DR Ramasjang
+http://dr05-lh.akamaihd.net/i/live/dr05_0@147058/master.m3u8?|X-Forwarded-For=78.157.96.0
+#EXTINF:-1 tvg-chno="8006" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="Nordic",DR Ultra
+http://dr06-lh.akamaihd.net/i/live/dr06_0@147059/master.m3u8?|X-Forwarded-For=78.157.96.0
+
+#EXTINF:-1 tvg-chno="8101" tvg-ID="NRK1.no" tvg-name="" tvg-type="live" tvg-logo="" channel-id="NRK1.no" group-title="Nordic",NRK 1
+http://nrk1us-f.akamaihd.net/i/nrk1us_0@102847/master.m3u8?dw=31?|X-Forwarded-For=5.249.230.1
+#EXTINF:-1 tvg-chno="8102" tvg-ID="NRK2.no" tvg-name="" tvg-type="live" tvg-logo="" channel-id="NRK2.no" group-title="Nordic",NRK 2
+http://nrk2us-f.akamaihd.net/i/nrk2us_0@107231/master.m3u8?dw=?|X-Forwarded-For=5.249.230.1
+#EXTINF:-1 tvg-chno="8103" tvg-ID="NRK3.no" tvg-name="" tvg-type="live" tvg-logo="" channel-id="NRK3.no" group-title="Nordic",NRK Super / NRK 3
+http://nrk3us-f.akamaihd.net/i/nrk3us_0@107233/master.m3u8?dw=31?|X-Forwarded-For=5.249.230.1
+
+#EXTINF:-1 tvg-chno="8301" tvg-ID="yletv1.fi" tvg-name="" tvg-type="live" tvg-logo="" channel-id="yletv1.fi" group-title="Nordic",Yle TV1
+https://yletv-lh.akamaihd.net/i/yletv1hls_1@103188/master.m3u8?|X-Forwarded-For=217.64.42.0
+#EXTINF:-1 tvg-chno="8302" tvg-ID="yletv2.fi" tvg-name="" tvg-type="live" tvg-logo="" channel-id="yletv2.fi" group-title="Nordic",Yle TV2
+https://yletv-lh.akamaihd.net/i/yletv2hls_1@103189/master.m3u8?|X-Forwarded-For=217.64.42.0
+#EXTINF:-1 tvg-chno="8304" tvg-ID="ylefem.fi" tvg-name="" tvg-type="live" tvg-logo="" channel-id="ylefem.fi" group-title="Nordic",Yle Teema/Fem Fi
+https://yletv-lh.akamaihd.net/i/yleteemafemfi_1@490775/master.m3u8?|X-Forwarded-For=217.64.42.0
+#EXTINF:-1 tvg-chno="8305" tvg-ID="ylefem.se" tvg-name="" tvg-type="live" tvg-logo="" channel-id="ylefem.se" group-title="Nordic",Yle Teema/Fem Se
+https://yletv-lh.akamaihd.net/i/yleteemafemse_1@490776/master.m3u8|X-Forwarded-For=217.64.42.0
+
+
+#EXTINF:-1 tvg-chno="9001" tvg-ID="ARD.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="ARD.de" group-title="DE;L-DE;General",Das Erste
+http://daserstehdut-lh.akamaihd.net/i/daserstehd_ut_de@629193/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9002" tvg-ID="ARD-alpha.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="ARD-alpha.de" group-title="DE;L-DE;General",ARD-alpha
+http://brlive-lh.akamaihd.net/i/bralpha_Germany@119899/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="DE;L-DE;General",3sat
+https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8?|X-Forwarded-For=91.197.29.78
+
+#EXTINF:-1,  DE: phoenix HD (EPG 19.2°E)
+https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8?|X-Forwarded-For=91.197.29.78
+#EXTINF:-1,  DE: phoenix
+http://zdfhls19-i.akamaihd.net/hls/live/744752-b/de/3/3.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1,  DE: rbb Berlin HD (EPG 19.2°E)
+http://rbblive-lh.akamaihd.net/i/rbb_berlin@144674/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1,  DE: rbb Berlin HD
+https://rbblive-lh.akamaihd.net/i/rbb_berlin@144674/index_5_av-p.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1,  DE: rbb Brandenburg HD (EPG 19.2°E)
+http://rbblive-lh.akamaihd.net/i/rbb_brandenburg@349369/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9003" tvg-ID="arte.de" tvg-name="" tvg-type="live" tvg-logo="https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png" channel-id="arte.de" group-title="DE;L-DE;General",arte
+http://artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-b.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9004" tvg-ID="One.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="One.de" group-title="DE;L-DE;General",ONE
+http://onelivestream-lh.akamaihd.net/i/one_livestream@568814/index_5_av-p.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9005" tvg-ID="WDR.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="WDR.de" group-title="DE;L-DE;General",WDR Fernsehen
+http://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9005" tvg-ID="BR.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="BR.de" group-title="DE;L-DE;General",BR
+http://brlive-lh.akamaihd.net/i/bralpha_germany@119899/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1,  DE: NDR Fernsehen Hamburg HD 
+http://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/master.m3u8
+#EXTINF:-1 tvg-chno="9006" tvg-ID="SRFernsehen.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="SRFernsehen.de" group-title="DE;L-DE;General",SR Fernsehen
+http://srlive24-lh.akamaihd.net/i/sr_universal02@107595/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9007" tvg-ID="SWR-bw.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="SWR-bw.de" group-title="DE;L-DE;General",SWR Fernsehen BW
+https://swrbwhls-i.akamaihd.net/hls/live/667638/swrbwd/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9008" tvg-ID="SWR-rp.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="SWR-rp.de" group-title="DE;L-DE;General",SWR Fernsehen RP
+https://swrrphls-i.akamaihd.net/hls/live/667639/swrrpd/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9009" tvg-ID="ServusHD.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="ServusHD.de" group-title="DE;L-DE;General",ServusTV Deutschland
+http://rbmn-live.akamaized.net/hls/live/2002830/geoSTVDEweb/master_3392.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9010" tvg-ID="" tvg-name="" tvg-type="live" tvg-logo="" channel-id="" group-title="DE;L-DE;News",N24 Welt News
+http://news2weltcms-lh.akamaihd.net/i/News2WeltCMS_1@425444/master.m3u8?|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-chno="9011" tvg-ID="WELT.de" tvg-name="" tvg-type="live" tvg-logo="" channel-id="WELT.de" group-title="DE;L-DE;New",Welt 
+http://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/master.m3u8?|X-Forwarded-For=91.63.136.21
